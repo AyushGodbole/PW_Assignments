@@ -1,7 +1,7 @@
 Q-1. Why are CSS selectors used in HTML?
 CSS selectors are used in HTML for:
 
-11.Applying styles to elements.
+1.Applying styles to elements.
 2.Targeting specific elements based on attributes or relationships.
 3.Maintaining separation between styling and HTML structure.
 4.Selectively styling elements.
