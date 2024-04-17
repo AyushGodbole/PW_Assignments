@@ -1,0 +1,16 @@
+Q-1 HTML5 New Features:
+HTML5 brought significant enhancements to web development, including semantic elements for better structuring, new form input types and attributes, native audio and video support, the <canvas> element for dynamic graphics, local storage APIs, Geolocation API, <picture> for responsive images, web workers, and web sockets for real-time communication.
+
+Q-2 Semantic Tags:
+Semantic tags in HTML5 provide meaning and structure to content, improving accessibility and SEO. Examples include <header>, <nav>, <article>, <section>, <aside>, <footer>, <main>, <figure>, and <figcaption>. These tags convey the purpose and relationship of content, aiding both humans and machines in understanding the page.
+
+Q-3 Uses of Semantic Tags:
+Semantic tags serve various purposes:
+
+1.Enhancing accessibility by providing meaningful structure.
+2.Improving SEO by aiding search engines in understanding content.
+3.Enhancing readability and maintainability of code.
+4.Facilitating easier styling with CSS.
+5.Ensuring consistency and organization in content across pages and sites.
+6.Simplifying maintenance and updates over time.
+By leveraging semantic tags, developers can create more accessible, readable, and SEO-friendly web pages while improving the overall user experience.
