@@ -1,0 +1,18 @@
+Q-1 What is the grid?
+A grid is like a framework for organizing stuff on a webpage. It divides the page into rows and columns, so you can place things like text, images, and buttons neatly. It's handy because it helps you position everything exactly where you want it, making your webpage look good on big screens and small screens.
+
+Q-2 What is the difference between flex and grid?
+Flexbox is good for arranging things in one direction, like in a row or a column. Grid, on the other hand, lets you organize stuff in two directions, like both rows and columns. Flexbox is best for smaller parts of a webpage, while Grid is great for the overall layout.
+
+Q-3 How can you define rows and columns for your grid?
+You can think of rows and columns like the blueprint of your webpage. To make them, you use properties called 'grid-template-rows' and 'grid-template-columns'. These let you say how many rows or columns you want, and how big each one should be.
+
+Q-4 List any two properties of the grid item and grid container.
+For the stuff inside the grid:
+
+grid-column: This tells which column(s) an item should be in. You can say where it starts and ends, or how many columns it takes up.
+grid-row: Similar to grid-column, but for rows. It says which row an item should be in, where it starts and ends, or how many rows it spans.
+For the whole grid:
+
+display: This tells the webpage to treat something as a grid. You use it to make a bunch of items into a grid layout.
+grid-template-columns and grid-template-rows: These properties define the size and number of columns and rows in the grid. You can decide how wide each column is or how tall each row is using these properties.
