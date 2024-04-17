@@ -1,0 +1,11 @@
+Q-1 Tables and Properties:
+HTML tables are used to organize data into rows and columns. They are created using the <table> tag and consist of rows (<tr>) and cells (<th> for header cells and <td> for data cells). Properties like 'border', 'cellpadding', and 'cellspacing' control the appearance of the table, while attributes like 'colspan' and 'rowspan' allow cells to span multiple columns or rows.
+
+Q-2 Media Elements:
+HTML provides media elements like <img>, <audio>, and <video> to embed images, audio files, and videos, respectively. Each element requires a 'src' attribute to specify the source file, and additional attributes can control aspects like dimensions, autoplay, and controls.
+
+Q-3 GET vs. POST in Forms:
+In HTML forms, 'GET' and 'POST' are two HTTP methods for submitting form data. 'GET' appends form data to the URL, visible and suitable for simple requests like searches. 'POST' sends data in the request body, more secure and preferred for complex data submissions. The method attribute in the form element determines the submission method.
+
+Q-4 Input Types:
+HTML forms support various input types like text, password, email, number, date, checkbox, radio, select, submit, reset, and button. Each type serves a specific purpose, such as collecting text input, selecting options, or submitting the form.
