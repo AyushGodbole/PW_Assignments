@@ -1,0 +1,27 @@
+Q-1 Position Property and Types:
+The position property in CSS determines how an element is positioned on a web page. There are five types:
+
+1.Static: Default positioning; follows the normal document flow.
+2.Relative: Positioned relative to its normal position, can be shifted using top, bottom, left, or right.
+3.Absolute: Positioned relative to its nearest positioned ancestor, or the initial containing block if none; taken out of the normal document flow.
+4.Fixed: Positioned relative to the browser window; remains fixed even when scrolling.
+5.Sticky: Initially in normal flow, becomes fixed based on scroll position.
+
+Q-2 Types of Positioning:
+CSS offers five main positioning types:
+
+1.Static: Default positioning; elements follow normal document flow.
+2.Relative: Positioned relative to normal position; can be shifted using top, bottom, left, or right.
+3.Absolute: Positioned relative to nearest positioned ancestor or initial containing block if none; taken out of normal flow.
+4.Fixed: Positioned relative to browser window; remains fixed during scrolling.
+5.Sticky: Initially in normal flow, becomes fixed based on scroll position.
+
+Q-3 Z-index and Its Use:
+Z-index is a CSS property controlling the vertical stacking order of overlapping elements. It's crucial for:
+
+1.Managing the order of elements visually.
+2.Higher Z-index values place elements above those with lower values.
+3.Works only on positioned elements.
+4.Useful for ensuring specific elements, like navigation bars, remain visible atop others.
+5.Values can be positive, negative, or zero, affecting stacking order accordingly.
+6.Combined with other CSS properties, Z-index enables complex layout and design effects.
