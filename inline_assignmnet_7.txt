@@ -1,0 +1,20 @@
+Q-1 Inline vs. Block Elements:
+Inline elements only occupy the necessary space and do not create line breaks, whereas block elements take up the full width available and create line breaks before and after.
+Examples:
+
+Inline: <a>, <span>, <strong>.
+Block: <div>, <p>, <h1>.
+
+Q-2 Working with Images:
+Use the <img> tag with attributes like 'src' for the image file path, 'alt' for a description, 'width' and 'height' for size, 'title' for additional info, and 'class' or 'id' for styling.
+
+Q-3 Creating Lists:
+
+1.Ordered: <ol> for numbered lists, <li> for each item.
+2.Unordered: <ul> for bulleted lists, <li> for each item.
+3.Definition: <dl> for term-definition pairs, <dt> for terms, <dd> for definitions.
+
+Q-4 Interlinking and Navigating:
+
+1.Internal: Use descriptive text, organized navigation menus, and contextual links within content.
+2.External: Use descriptive anchor text, link to trustworthy sites, open external links in new tabs, and provide social media sharing options.
