@@ -1,0 +1,66 @@
+Q1. What is RDBMS? Why do industries use RDBMS?
+
+RDBMS (Relational Database Management System) is a type of database management system that organizes data into tables with rows and columns, where each row represents a record and each column represents a specific attribute or field. Industries use RDBMS because it provides a structured way to store, manage, and retrieve data. It ensures data integrity, allows for efficient querying and indexing, supports transaction management, and enables relationships between different tables.
+
+Q2. Explain the relationship data model in depth.
+
+The relationship data model is a conceptual representation of the relationships between different entities in a database. It defines how data is organized and related to each other. Relationships in a data model are typically represented using symbols such as lines connecting entities, and they can be of various types such as one-to-one, one-to-many, or many-to-many.
+
+Q3. What is the importance of Relationships in a Database management system? Explain the types of relationships.
+
+Relationships in a Database Management System (DBMS) are important because they define how data in different tables is related and interconnected. The types of relationships include:
+
+1.One-to-One: Each record in one table is related to exactly one record in another table.
+2.One-to-Many: Each record in one table can be related to multiple records in another table.
+3.Many-to-Many: Many records in one table can be related to many records in another table.
+
+Q4. Explain the different types of Keys in RDBMS considering a real-life scenario.
+
+In a real-life scenario, different types of keys in RDBMS could be illustrated using a customer and order database:
+
+1.Primary Key: Unique identifier for each record, e.g., CustomerID in the Customer table.
+2.Foreign Key: A field in one table that refers to the primary key in another table, e.g., CustomerID in the Order table.
+3.Composite Key: A combination of multiple fields that uniquely identifies a record, e.g., a combination of CustomerID and ProductID in the OrderDetails table.
+4.Candidate Key: A unique key that could serve as the primary key, e.g., both Email and CustomerID in the Customer table.
+
+Q5. Write a short note on Single Responsibility Principle.
+
+Single Responsibility Principle (SRP) states that a class or module should have only one reason to change, meaning it should have only one responsibility or job to perform. This principle helps in keeping code modular, maintainable, and easier to understand by separating concerns and reducing dependencies.
+
+Q6. Explain the different types of errors that could arise in a denormalized database.
+
+Errors in a denormalized database can include:
+
+1.Data Redundancy: Duplication of data leading to inconsistency.
+2.Update Anomaly: Difficulty in updating data due to redundancy.
+3.Deletion Anomaly: Unintended loss of data due to deletion in one place.
+4.Insertion Anomaly: Inability to insert data due to missing related data.
+5.Loss of Data Integrity: Difficulty in maintaining data integrity due to redundancy.
+
+Q7. What is normalization and what is the need for normalization?
+
+Normalization is the process of organizing data in a database efficiently to eliminate redundancy and dependency. The need for normalization arises to reduce data anomalies and ensure data integrity by minimizing duplication and inconsistency in the database.
+
+Q8. List out the different levels of Normalization and explain them in detail.
+
+Different levels of normalization include:
+
+1.First Normal Form (1NF): Eliminates repeating groups by ensuring that each column contains atomic values.
+2.Second Normal Form (2NF): Ensures that non-key attributes are fully functional dependent on the primary key.
+3.Third Normal Form (3NF): Removes transitive dependencies, ensuring that non-key attributes are not dependent on other non-key attributes.
+4.Boyce-Codd Normal Form (BCNF): A stronger version of 3NF, ensuring that every determinant is a candidate key.
+
+Q9. What are joins and why do we need them?
+
+Joins are SQL operations used to combine rows from two or more tables based on a related column between them. We need joins to retrieve data that spans multiple tables, allowing us to establish relationships and perform complex queries.
+
+Q10. Explain the different types of joins?
+
+Different types of joins include:
+
+1.Inner Join: Returns rows when there is a match in both tables.
+2.Left Join (or Left Outer Join): Returns all rows from the left table and matching rows from the right table.
+3.Right Join (or Right Outer Join): Returns all rows from the right table and matching rows from the left table.
+4.Full Join (or Full Outer Join): Returns rows when there is a match in either table.
+5.Cross Join: Returns the Cartesian product of the two tables, resulting in all possible combinations of rows.
+6.Self Join: Joining a table with itself, useful for comparing rows within the same table.
